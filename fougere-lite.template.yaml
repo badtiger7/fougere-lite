@@ -1,0 +1,30 @@
+clients:
+  client1:
+    storageBucket:
+      bucket1:
+        region: us-central1
+        projectId: fougere-project
+      bucket2:
+        region: us-central1
+        projectId: fougere-project
+    cloudTasks:
+      queue1:
+        region: us-central1
+        projectId: fougere-project
+        minBackoff: 1s
+        maxBackoff: 10s
+        maxConcurrentDispatches: 1000
+        maxDispatchesPerSecond: 500.0
+  client2:
+    storageBucket:
+      bucket3:
+        region: us-central1
+        projectId: fougere-project
+    cloudTasks:
+      queue2:
+        region: us-central1
+        projectId: fougere-project
+        minBackoff: 2s
+        maxBackoff: 10s
+        maxConcurrentDispatches: 1000
+        maxDispatchesPerSecond: 500.0

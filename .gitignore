@@ -1,0 +1,9 @@
+bin
+fougere-lite
+*.coverprofile
+results.xml
+debug.test
+/fougere.yaml
+.idea
+.DS_Store
+coverage
